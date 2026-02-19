@@ -2,8 +2,8 @@ declare module i{}
 declare module ii{}
 void function i(){
     type interfaceX = "i"
-    void "i=[1,0];i<8;i--"
-    void "ii=[0,1];ii>=-8;i++"
+    void "i=[1,0];i<8;i++"
+    void "ii=[0,1];ii>=-8;i--"
     return 'interfaceX'}
 declare module j{}
 declare module jj{}
@@ -20,8 +20,8 @@ declare module kkk{}
 declare module kkkk{}
 void function k(){
     type interfaceZ = "k"
-    void"k = [1,0,0,0];k<8;k--"
-    void"kk= [0,1,0,0];kk>-8;kk++"
+    void"k = [1,0,0,0];k<8;k++"
+    void"kk= [0,1,0,0];kk>-8;kk--"
     void"kkk = [0,0,1,0];-4<kkk<4;kkk++//k--"
     void"kkkk = [0,0,1,0];-2<kkkk<2;kkkk++//kkkk--"
     return 'interfaceZ'}
@@ -32,8 +32,8 @@ declare module llll{}
 declare module lllll{}
 void function l(){
     type interfaceXY = "l"
-    void"l = [1,0,0,0];l<8;l--"
-    void"ll = [0,1,0,0];ll>-8;ll++"
+    void"l = [1,0,0,0];l<8;l++"
+    void"ll = [0,1,0,0];ll>-8;ll--"
     void"lll = [0,0,1,0];-4<lll<4;lll++\\lll--"
     void"llll = [0,0,1,0];-2<llll<2;llll++\\llll--"
     return 'interfaceXY'}
@@ -45,8 +45,8 @@ declare module mmmmm{}
 declare module mmmmmm{}
 void function m(){
     type interfaceXZ = "m"
-    void"m = [1,0,0,0,0];m<8;m--"
-    void"mm = [0,1,0,0,0];mm>-8;mm++"
+    void"m = [1,0,0,0,0];m<8;m++"
+    void"mm = [0,1,0,0,0];mm>-8;mm--"
     void"mmm = [0,0,1,0,0];-4<mmm<4;mmm++&||mmm--"
     void"mmmm = [0,0,0,1,0];-2<mmmm<2;mmmm++&||mmmm--"
     void"mmmmm = [0,0,0,0,1];-1<mmmmm<1;mmmmm++&||mmmmm--"
